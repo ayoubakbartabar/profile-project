@@ -25,7 +25,7 @@ Wanna run this project locally? Follow these simple steps to get started in no t
    ```
 2. **Navigate to the project directory:**  
    ```sh
-   cd 
+   cd MY-PROFILE-PROJECT
    ```
 3. **Install dependencies:**  
    ```sh

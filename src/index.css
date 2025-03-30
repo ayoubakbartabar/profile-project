@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "DMSans-VariableFont_opsz,wght";
+    src: url(../public/font/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+body{
+
+    font-family: "DMSans-VariableFont_opsz,wght";
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#root{
+    padding: 1rem 1rem;
+}

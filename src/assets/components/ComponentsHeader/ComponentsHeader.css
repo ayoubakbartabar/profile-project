@@ -1,0 +1,26 @@
+.component-header-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.component-header{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.component-title{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;  
+}
+.component-paragraph{
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+    color: #808080;
+}

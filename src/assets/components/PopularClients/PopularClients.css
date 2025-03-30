@@ -1,0 +1,32 @@
+.popular-client-container{
+    margin-top: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+}
+.popular-client-header{
+    font-size: 18px;
+    font-weight: 900;
+    color: #808080;
+}
+.popular-client-title{
+    font-size: 30px;
+    font-weight: 700;
+    width: 30%;
+    text-align: center;
+}
+.popular-clients-image-container{
+    display: flex;
+    gap: 30px;
+}
+.popular-clients-image{
+    filter: grayscale( 100% );
+    width: 10rem;
+}
+
+

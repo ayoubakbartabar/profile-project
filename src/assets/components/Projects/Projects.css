@@ -1,0 +1,27 @@
+.project-box{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 22%;
+}
+.project-title{
+    font-size: 20px;
+}
+.project-pragraph{
+    margin: 20px 0;
+    width: 100%;
+    line-height: 30px;
+}
+.see-detail{
+    text-transform: uppercase;
+    padding: 10px ;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.see-detail:hover{
+    transition: 0.5s ease;
+    box-shadow: -1px 2px 7px 0px rgba(0, 0, 0 , 0.5);
+}

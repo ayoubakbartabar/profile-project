@@ -1,0 +1,13 @@
+.header-container{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.header-image{
+    width: 35%;
+    border-radius: 30px;
+}

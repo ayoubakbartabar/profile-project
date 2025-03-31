@@ -43,3 +43,12 @@
     cursor: pointer;
 
 }
+
+@media screen and (max-width: 813px) {
+    .menu-list{
+        display: none !important;
+    }
+    .menu-button-container{
+        display: none;
+    }
+}

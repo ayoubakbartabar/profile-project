@@ -1,55 +1,125 @@
-.my-resume-container{
-    margin-top: 200px;
-    margin-bottom: 200px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 26%;
+.my-resume-container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 26%;
 }
-.my-resume-text{
-    width: 30%;
+
+.my-resume-text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.resume-title {
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.resume-pragraph {
+  line-height: 29px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #808080;
+}
+
+.view-more-btn {
+  text-transform: uppercase;
+  gap: 10px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.view-more-btn:hover {
+  transition: 0.8s ease;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.view-more-svg {
+  width: 15px;
+}
+
+@media (max-width: 768px) {
+  .my-resume-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .my-resume-text {
+    width: 80%;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
-}
-.resume-title{
-    text-transform: capitalize;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-.resume-pragraph{
-    line-height: 29px;
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #808080;
-}
-.view-more-btn{
-    text-transform: uppercase;
-    gap: 10px;
-    font-weight: 700;
-    padding: 10px 30px;
-    border: 0;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
     align-items: center;
-    cursor: pointer;
-    background-color: #ffffff;
-}
-.view-more-btn:hover{
-    transition: 0.8s ease;
-    background-color: rgba(128, 128, 128 , 0.2);
+    justify-content: center;
+  }
 
+  .resume-title {
+    font-size: 30px;
+  }
+
+  .resume-pragraph {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .view-more-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .view-more-svg {
+    width: 12px;
+  }
 }
-.view-more-svg{
-    width: 15px;
+
+@media (min-width: 1024px) {
+  .my-resume-container {
+    margin-top: 250px;
+    margin-bottom: 250px;
+    gap: 15%;
+  }
+
+  .my-resume-text {
+    width: 35%;
+  }
+
+  .resume-title {
+    font-size: 45px;
+  }
+
+  .resume-pragraph {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .view-more-btn {
+    padding: 12px 35px;
+  }
+
+  .view-more-svg {
+    width: 18px;
+  }
 }

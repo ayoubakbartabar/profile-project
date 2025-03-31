@@ -1,20 +1,29 @@
-.my-client-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-    gap: 30px;
+.my-client-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  padding: 40px 20px;
 }
-.my-client-title{
-    font-size: 20px;
-    font-weight: 700;
+
+.my-client-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px; 
 }
-.clients-image-container{
-    display: flex;
-    gap: 30px;
+
+.clients-image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1130px;
+  width: 100%;
 }
-.clients-image{
-    width: 10rem;
+
+.clients-image {
+  width: 100%;
+  max-width: 200px; 
+  height: auto;
 }

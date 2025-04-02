@@ -2,7 +2,7 @@
 
 # ⚡ Digital Identity, Reimagined!
 
-
+A profile page that goes beyond a simple introduction! This project is designed with a unique aesthetic, ultra-fast performance, and meticulous details to offer a professional and visually captivating experience. Every element is carefully crafted to create a modern, engaging, and memorable presence.
 
 ## ✨ Features
 - **Unique and minimalist design** 🎨

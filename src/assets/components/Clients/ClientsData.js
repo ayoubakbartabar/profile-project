@@ -6,7 +6,7 @@ const ClientsInfo = [
       "I had the pleasure of working with Lily on a critical web development project, and I can confidently say that their expertise and professionalism exceeded my expectations.",
     name: "Angel",
     position: "FrontEnd Developer",
-    avatar:'./public/image/avatar1.jpg'
+    avatar:'/image/avatar1.jpg'
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const ClientsInfo = [
       "I had the pleasure of working with Lily on a critical web development project, and I can confidently say that their expertise and professionalism exceeded my expectations.",
     name: "Bros",
     position: "BackEnd Developer",
-    avatar:'./public/image/avatar2.jpg'
+    avatar:'/image/avatar2.jpg'
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const ClientsInfo = [
       "I had the pleasure of working with Lily on a critical web development project, and I can confidently say that their expertise and professionalism exceeded my expectations.",
     name: "Michael",
     position: " Technical Manager",
-    avatar:'./public/image/avatar3.jpg'
+    avatar:'/image/avatar3.jpg'
   },
 ];
 export default ClientsInfo;

@@ -3,8 +3,10 @@ import ClientsInfo from "./ClientsData";
 import "./Clients.css";
 
 export default function Clients() {
+    
   // set Hook
   const [selectedClient, setSelectedClient] = useState(ClientsInfo[0]);
+
   // create function for client info handler
   const clientSayHandler = (client) => {
     setSelectedClient(client);

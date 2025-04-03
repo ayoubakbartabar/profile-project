@@ -30,6 +30,7 @@
 .footer-menu-like {
   text-decoration: none;
   color: #b4adad;
+  transition: 800ms ease;
 }
 
 .footer-menu-btn {
@@ -41,6 +42,9 @@
   background-color: #000;
   font-weight: 800;
   cursor: pointer;
+}
+.footer-menu-like:hover {
+  color: black;
 }
 
 @media (max-width: 815px) {

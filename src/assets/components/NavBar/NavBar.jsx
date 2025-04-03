@@ -1,7 +1,7 @@
 import React from 'react'
 import './NavBar.css'
 import Menu from '../Menu/Menu'
-
+import { MdOutlineMenu } from "react-icons/md"; 
 export default function NavBar() {
   return (
     <nav className='nav-bar-container'>
@@ -18,7 +18,7 @@ export default function NavBar() {
             <button className='sign-in'>SIGN IN</button>
             <button className='blocks'>BLOCKS</button>
         </div>
-
+        <button className='mobile-menu'><MdOutlineMenu /></button>
     </nav>
   )
 }

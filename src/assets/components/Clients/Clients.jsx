@@ -3,9 +3,9 @@ import ClientsInfo from "./ClientsData";
 import "./Clients.css";
 
 export default function Clients() {
-    // set Hook 
+  // set Hook
   const [selectedClient, setSelectedClient] = useState(ClientsInfo[0]);
-// create function for client info handler
+  // create function for client info handler
   const clientSayHandler = (client) => {
     setSelectedClient(client);
   };
@@ -15,9 +15,10 @@ export default function Clients() {
       <div className="clients-info-container">
         <h2 className="clients-title">{selectedClient.expertise}</h2>
         <p className="clients-paragraph">{selectedClient.description}</p>
-        <h5 className="clients-info">{selectedClient.name}</h5>
-        <p className="clients-address">{selectedClient.position}</p>
-
+        <h5 className="clients-info">
+          {selectedClient.name} - {selectedClient.position}
+        </h5>
+        <p className="clients-address">Marketing @ APPLE INC.</p>
         <div className="all-clients-image-container">
           {ClientsInfo.map((client) => (
             <a

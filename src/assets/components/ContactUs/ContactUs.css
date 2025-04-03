@@ -81,3 +81,117 @@
     align-items: flex-start;
 
 }
+@media (max-width: 1024px) {
+    .contact-info-container {
+        flex-direction: column;
+        width: 95%;
+        padding: 20px;
+    }
+
+    .contact-info-content {
+        width: 100%;
+        padding: 80px 20px;
+    }
+
+    .contact-info-input-section {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .first-name, .last-name {
+        width: 100%;
+    }
+
+    .name-input-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .email-input-container {
+        margin-bottom: 40px;
+    }
+
+    .comment-container {
+        margin-top: 30px;
+    }
+
+    .send-message-btn {
+        width: 100%;
+        text-align: center;
+        padding: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-us-container {
+        margin-top: 100px;
+    }
+
+    .contact-info-container {
+        padding: 15px;
+    }
+
+    .contact-info-title {
+        font-size: 22px;
+    }
+
+    .contact-info-paragraph {
+        font-size: 16px;
+    }
+
+    .contact-info-communication-methods {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-info-input-container {
+        padding: 5px;
+    }
+
+    .email-label {
+        bottom: 80%;
+    }
+
+    .send-message-btn-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-us-container {
+        margin-top: 80px;
+    }
+
+    .contact-info-container {
+        width: 100%;
+        box-shadow: none;
+        padding: 10px;
+    }
+
+    .contact-info-title {
+        font-size: 20px;
+    }
+
+    .contact-info-paragraph {
+        font-size: 14px;
+    }
+
+    .contact-info-communication-methods {
+        gap: 10px;
+    }
+
+    .name-input, .email-input, .comment-input {
+        font-size: 14px;
+        padding: 15px 2px;
+    }
+
+    .checkbox {
+        width: 1.4em;
+        height: 1.4em;
+    }
+
+    .send-message-btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+}

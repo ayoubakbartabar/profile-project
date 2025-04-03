@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "DMSans-VariableFont_opsz,wght";
-    src: url(../public/font/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+    src: url(/font/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
 }
 
 body {

@@ -79,7 +79,7 @@
 
   .clients-info-container {
     width: 100%;
-    margin: 20px 0;
+    margin: 2rem 0;
   }
 
   .clients-avatar {
@@ -116,6 +116,7 @@
 
   .clients-paragraph {
     font-size: 14px;
+    text-align: center;
   }
 
   .clients-info {

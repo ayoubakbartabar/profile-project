@@ -79,10 +79,10 @@ export default function MySkills() {
           <Skills
             svg={
               <svg
-              id="eye-svg"
+                id="eye-svg"
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 512 512"
                 xmlns="http://www.w3.org/2000/svg"
               >

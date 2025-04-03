@@ -7,7 +7,7 @@ export default function Header() {
 
     <section className='header-container'>
        <Welcome/>
-       <img  src='../public/image/avatar1.jpg' alt='Avatar' className='header-image'></img>
+       <img  src='/image/avatar1.jpg' alt='Avatar' className='header-image'></img>
     </section>
 
   )

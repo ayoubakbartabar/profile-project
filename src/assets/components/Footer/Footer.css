@@ -1,43 +1,76 @@
-.footer{
+.footer {
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+  border: 0;
+  border-top: 1px solid #b4adad;
+  padding: 40px 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.copy-right {
+  color: #b4adad;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer-menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-menu-like {
+  text-decoration: none;
+  color: #b4adad;
+}
+
+.footer-menu-btn {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #000;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@media (max-width: 815px) {
+  .footer-menu {
     display: flex;
-    width: 100%;
-    margin-top: 150px;
-    border: 0;
-    border-top: 1px solid #b4adad;
-    padding: 40px 10px;
+    list-style: none;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
     align-items: center;
-}
-.copy-right{
-    color: #b4adad;
-    font-size: 15px;
-    font-weight: 400;
-}
-.footer-menu{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .footer {
     display: flex;
-    list-style: none;
-    gap: 10px;
-    flex-direction: row;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #b4adad;
+    padding: 40px 10px;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
 }
-.footer-menu-like{
-    text-decoration: none;
-    color: #b4adad;
-}
-
-.footer-menu-btn{
-    padding: 10px 20px;
-    color: #fff;
-    font-size: 15px;
-    border: 0;
-    border-radius: 10px;
-    background-color: #000;
-    font-weight: 800;
-    cursor: pointer;
+@media (max-width: 405px) {
+  .footer-menu-btn {
+    display: none;
+  }
 }

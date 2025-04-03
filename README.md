@@ -4,6 +4,10 @@
 
 A profile page that goes beyond a simple introduction! This project is designed with a unique aesthetic, ultra-fast performance, and meticulous details to offer a professional and visually captivating experience. Every element is carefully crafted to create a modern, engaging, and memorable presence.
 
+🌟 **Live Demo**
+
+🔗 [Check it out here](https://developer-profile-project.netlify.app/)
+
 ## ✨ Features
 - **Unique and minimalist design** 🎨
 - **Ultra-fast and smooth performance** ⚡

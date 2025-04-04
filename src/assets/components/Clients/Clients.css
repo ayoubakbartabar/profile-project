@@ -146,6 +146,35 @@
     width: 30px;
     height: 30px;
   }
+  .clients-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 0px;
+  }
+
+  .clients-info-container {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .clients-content > div:last-child {
+    order: -1;
+  }
+
+  .clients-avatar {
+    display: flex;
+    max-width: 290px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
   .clients-info-container {

@@ -104,3 +104,21 @@
     max-width: 200px;
   }
 }
+@media screen and (max-width: 350px) {
+  .welcome-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .welcome-paragraph {
+    font-size: 16px;
+  }
+  .email-input-container {
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .require-btn {
+    padding: 11px;
+}
+
+}

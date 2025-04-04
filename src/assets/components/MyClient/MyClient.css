@@ -29,3 +29,10 @@
   max-width: 200px; 
   height: auto;
 }
+@media screen and (max-width: 350px) {
+
+  .my-client-title {
+    font-size: 1.5rem;
+
+}
+}

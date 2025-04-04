@@ -33,6 +33,12 @@
     justify-content: center;
 
 }
+.contact-info-content * {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
 .contact-info-title{
     font-size: 25px;
     color: #fff;

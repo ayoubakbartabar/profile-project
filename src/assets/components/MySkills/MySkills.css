@@ -89,3 +89,31 @@
     max-width: 100%;
   }
 }
+/* @media screen and (max-width: 350px) {
+  /* .skills-box-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .skills-box {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .skills-title {
+    font-size: 1rem;
+  }
+
+  .skills-paragraph {
+    font-size: 0.8rem;
+  }
+
+  .svg-container {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skills-svg {
+    width: 50%;
+  } */
+

@@ -7,6 +7,7 @@
   align-items: flex-start;
   margin-top: 5rem;
 }
+
 .resume-box {
   display: flex;
   flex-direction: row;
@@ -16,6 +17,7 @@
   margin-bottom: 15px;
   gap: 10px;
 }
+
 .resume-svg-container {
   width: 40px;
   background-color: #000000;
@@ -25,15 +27,19 @@
   display: flex;
   box-shadow: -1px 1px 7px 0px rgba(73, 70, 70, 0.5);
 }
+
 .resume-text {
   color: #808080;
 }
+
 @media screen and (max-width: 410px) {
   .my-resume-svg-container {
     margin-top: 1rem;
   }
+
   .resume-box {
     display: flex;
     flex-direction: column;
   }
 }
+

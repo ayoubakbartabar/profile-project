@@ -40,7 +40,7 @@
 .mobile-menu-container {
   position: fixed;
   top: 0;
-  left: -100%;
+  left: -110%;
   width: 60%;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.95);

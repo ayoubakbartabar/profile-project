@@ -88,7 +88,7 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 813px) {
+@media screen and (max-width: 828px) {
   .menu-list {
     display: none !important;
   }

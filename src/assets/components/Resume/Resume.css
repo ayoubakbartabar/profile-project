@@ -5,7 +5,7 @@
   justify-content: center;
   align-content: center;
   align-items: flex-start;
-  margin-top: 5rem;
+
 }
 
 .resume-box {
@@ -34,6 +34,18 @@
   font-size: 15px;
 }
 
+
+@media screen and (max-width: 410px) {
+  .my-resume-svg-container {
+    margin-top: 1rem;
+  }
+
+  .resume-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
 
 @media screen and (max-width: 410px) {
   .my-resume-svg-container {

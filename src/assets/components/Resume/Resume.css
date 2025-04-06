@@ -16,6 +16,7 @@
   justify-content: center;
   margin-bottom: 15px;
   gap: 10px;
+  align-items: center;
 }
 
 .resume-svg-container {
@@ -30,7 +31,9 @@
 
 .resume-text {
   color: #808080;
+  font-size: 15px;
 }
+
 
 @media screen and (max-width: 410px) {
   .my-resume-svg-container {
@@ -39,7 +42,33 @@
 
   .resume-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
   }
 }
 
+@media screen and (max-width: 398px) {
+  .my-resume-svg-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .resume-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .resume-text {
+    text-align: center;
+    
+  }
+
+}

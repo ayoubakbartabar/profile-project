@@ -3,7 +3,7 @@ import './Footer.css'
 export default function Footer() {
   return (
     <footer className='footer'>
-        <h4 className="copy-right">© 2024 Made with Ayoub .</h4>
+        <h4 className="copy-right">© 2025 Made with Ayoub .</h4>
         
         <ul className="footer-menu">
             <li className="footer-list"><a className='footer-menu-like' href="#">Home</a></li>
